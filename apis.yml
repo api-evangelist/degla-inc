@@ -1,7 +1,27 @@
 aid: degla-inc
 name: Degla Inc
-description: Degla Inc is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Degla is a Y Combinator (Fall 2026) startup building an autonomous aerial
+  intelligence layer that turns natural language into multi-drone mission
+  execution. Operators describe an objective in plain language and Degla plans
+  the mission, assigns aircraft, defines coverage patterns, and deploys a fleet
+  that adapts in real time — with no waypoints, flight plans, or specialized
+  training required. The platform targets search and rescue, emergency response,
+  infrastructure inspection, and other critical field operations. Founded in
+  2026 by Aziz Hanafi and based in Boston, the company is in early access and
+  has not yet published a public API, developer portal, or documentation.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://degla.ai/apple-touch-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/degla-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,35 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: F26
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Drones
+- Autonomous Systems
+- Artificial Intelligence
+- Aerospace
+- Emergency Response
+- Robotics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/degla-inc-domain-security.yml
+- type: Website
+  url: https://degla.ai
+- type: LinkedIn
+  url: https://www.linkedin.com/company/deglaai/
+- type: X
+  url: https://x.com/degla
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
