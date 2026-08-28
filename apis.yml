@@ -10,6 +10,17 @@ description: >-
   infrastructure inspection, and other critical field operations. Founded in
   2026 by Aziz Hanafi and based in Boston, the company is in early access and
   has not yet published a public API, developer portal, or documentation.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
