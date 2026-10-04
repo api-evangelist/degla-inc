@@ -1,5 +1,5 @@
 aid: degla-inc
-name: Degla Inc
+name: Degla
 description: >-
   Degla is a Y Combinator (Fall 2026) startup building an autonomous aerial
   intelligence layer that turns natural language into multi-drone mission
@@ -72,3 +72,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Degla Inc
